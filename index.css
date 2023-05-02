@@ -1,0 +1,18 @@
+.blue-text {
+    color: blue;
+  }
+  div > p {
+    font-weight: bold;
+  }
+  p + span {
+    color: red;
+  }
+  div p span {
+    font-style: italic;
+  }
+  #front .innodom {
+    background-color: yellow;
+  }
+  .innodom {
+    font-size: 20px;
+  }
