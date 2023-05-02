@@ -1,18 +1,34 @@
-.blue-text {
-    color: blue;
-  }
-  div > p {
-    font-weight: bold;
-  }
-  p + span {
-    color: red;
-  }
-  div p span {
-    font-style: italic;
-  }
-  #front .innodom {
-    background-color: yellow;
-  }
-  .innodom {
-    font-size: 20px;
-  }
+.blue {
+  color: blue;
+}
+
+p h2 {
+  /* свойства для h2 внутри p */
+  font-size: 50px;
+  background-color: black;
+}
+
+div > p {
+  /* свойства для p, являющихся прямыми потомками div */
+  color: brown;
+}
+
+p + span {
+  /* свойства для span, которые располагаются сразу после p */
+  background-color: green;
+}
+
+div p span {
+  /* свойства для span, находящихся внутри p в блоке div */
+  color: gold;
+}
+
+#front .innodom {
+  /* свойства для элементов с классом innodom внутри элемента с id=front */
+  background-color: aqua;
+}
+
+.innodom {
+  /* свойства для элементов с классом innodom */
+  background-color: tomato;
+}
