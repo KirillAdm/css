@@ -1,0 +1,27 @@
+.body{
+    background-color: gray;
+}
+.burger{
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+.tabel{
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-image:url(./assets/mar.png) ;
+
+}
+.html{
+ color: blue;
+ text-shadow: 4px 3px 0px rgb(247, 163, 177);
+}
+.css{
+    width: 50px;
+    color: white;
+    background-color: blue;
+}
+.js{
+    text-decoration:line-through pink solid 4px ;
+}

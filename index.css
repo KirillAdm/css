@@ -32,3 +32,17 @@ div p span {
   /* свойства для элементов с классом innodom */
   background-color: tomato;
 }
+.head{
+  /* display: inline; */
+  background-color: blue;
+  border-radius: 5px;
+  
+}
+.task{
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
