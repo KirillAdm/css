@@ -25,10 +25,7 @@
 .js{
     text-decoration:line-through pink solid 4px ;
 }
-.menu{
-    display:contents;
-    align-content: end;
-}
+
 .hamburger-menu{
     background-color: black;
     height: 50px;
@@ -37,23 +34,18 @@
     display: flex;
     position: fixed;
     top: 23px ;
-    right: 130px;
+    right: 135px;
     color: white;
 }
-#menu__toggle {
-    opacity: 0;
-  }
-  /* стилизуем кнопку */
   .menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center;  /* центрируем содержимое кнопки */
+    display: flex;
+    align-items: center; 
     position: fixed;
     top: 20px;
     right: 100px;
     width: 26px;
     height: 26px;
     cursor: pointer;
-    z-index: 1;
   }
   .menu__btn > span,
   .menu__btn > span::before,
@@ -72,32 +64,7 @@
     content: '';
     top: 8px;
   }
-  /* контейнер меню */
-.menu__box {
-    display: block;
-    position: fixed;
-    visibility: hidden;
-    top: 0;
-    margin: 0;
-    padding: 80px 0;
-    list-style: none;
-    text-align: center;
-    background-color:none ;
+  .icon{
+    display:inline-flex;
+    margin-top: 25px;
   }
-  /* элементы меню */
-  .menu__item {
-    display: block;
-    padding: 12px 24px;
-    color: black;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  .menu__item:hover {
-    background-color: green;
-  }
-  #menu__toggle:checked ~ .menu__box {
-    visibility: visible;
-    right: 100px;
-  }
-  
