@@ -8,13 +8,14 @@
     font-family: 'Times New Roman', Times, serif;
     list-style-image:url(./assets/mar.png) ;
 }
-.tabel::marker{
-    color: black;
-    text-shadow: 4px 3px 0px rgb(247, 163, 177);
+ul>li:first-child{
+  color: blue;
+  filter: drop-shadow(4px 3px 0px pink);
 }
+
 .html{
- color: blue;
- text-shadow: 4px 3px 0px rgb(247, 163, 177);
+ /* color: blue; */
+ /* text-shadow: 4px 3px 0px rgb(247, 163, 177); */
 
 }
 .css{
