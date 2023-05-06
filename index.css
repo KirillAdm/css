@@ -40,9 +40,13 @@ div p span {
 }
 .task{
   font-size: 30px;
+  margin-right: 10px;
   background-color: black;
   color: white;
   border-radius: 5px;
   cursor: pointer;
 
+}
+.but{
+  display: flex;
 }

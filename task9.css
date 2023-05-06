@@ -1,0 +1,21 @@
+body{
+    margin-top: 20px;
+    background-color: gray;
+}
+.text-img{
+ height: 300px;
+ overflow-y: auto;
+}
+.mem{
+float: left;
+}
+.text{
+font-size: 30px ;
+}
+.mem-sec{
+    float: right;
+}
+.imgi{
+    width: 300px;
+    height: 300px;
+}
