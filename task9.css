@@ -24,6 +24,6 @@ font-size: 30px ;
 }
 .planet-i{
     shape-outside: circle();
-    float: left;
+    float: right;
     border-radius: 50%;
 }
