@@ -27,3 +27,24 @@ font-size: 30px ;
     float: right;
     border-radius: 50%;
 }
+:root{
+    --main-backcolor: blue;
+    --main-color:white;
+    --back: aqua;
+    --text:center;
+    --width: max-content;
+}
+.dz{
+    width: var(--width);
+    padding: 10px;
+    margin-top: 30px;
+    background-color: var(--back);
+
+}
+.ino{
+    font-size: 30px;
+    text-transform: uppercase;
+    width:var(--width);
+    background-color: var(--main-backcolor);
+    color: var(--main-color);
+}
