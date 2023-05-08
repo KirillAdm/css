@@ -2,36 +2,94 @@ body{
     background-color: gray;
 }
 .text{
-    width: 100%;
     display: grid;
-    gap: 30px  ;
-    grid-template-areas:"a a a a "        
-                        "b b c d "
-                        "e e c d ";
+    grid-template-areas:"a a a "        
+                        "b c d "
+                        "e c d ";
+    gap: 20px;
+    height: 50vh;
+    width: 50vw;
+    margin: 0;
+    grid-template-columns: 1fr 20% 15%;
+    grid-template-rows:15% 1fr 10% ;
+} 
+
+.innodom1{
+    grid-area: a;
+    background-color: rgb(0 179 255);
+    padding: 10px;
+}
+.innodom2{
+    grid-area: b;
+    background-color: rgb(0 179 255);
+    padding: 10px;
+}
+.innodom3{
+    grid-area: c;
+    background-color: rgb(0 179 255);
+    padding: 10px;
+}
+.innodom4{
+    grid-area: d;
+    background-color: rgb(0 179 255);
+    padding: 10px;
+}
+.innodom5{
+    grid-area: e;
+    background-color: rgb(0 179 255);
+    padding: 10px;
 }
 
-.sp:nth-child(1){
-    grid-area: a;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(59, 59, 232);
+
+
+
+.tab{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vw;
+    margin-top: 20px;
+    justify-content:flex-start ;
 }
-.sp:nth-child(2){
-    grid-area: b;
-    height: 500px;
+.head{
+    height:10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: blue;
 }
-.sp:nth-child(3){
-    grid-area: c;
-    width: 50px;
-    background-color: blue;
+.one{
+    align-items: center;
+    background-color: rgb(232, 232, 232);
 }
-.sp:nth-child(4){
-    grid-area: d;
-    background-color: blue;
+.two{
+    background-color: rgb(226, 196, 220);
 }
-.sp:nth-child(5){
-    grid-area: e;
-    height: 100px;
+.three{
+    background-color: rgb(244, 197, 205);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.four{
+    display: flex;
+    height: 100%;
+    flex:1 2 10px;
+    justify-content: ;
+    background-color:#3E94D1	;
+}
+.five{
+    height: 100%;
+    flex: 2 1 100px;
+    background-color: aqua;
+}
+.footer{
+    height: 10%;
+    display: flex;
     background-color: blue;
 }
