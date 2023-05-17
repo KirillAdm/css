@@ -1,0 +1,140 @@
+footer{
+    margin-top: 140px;
+    max-width: 1800px;
+    height: 442px;
+    background: #305F64;
+}
+
+.block-footer{
+    display: flex;
+    height: 233px;
+    margin: 0px 120px 0px 120px ;
+}
+.text{
+    display: grid;
+    margin: 0px 120px;
+}
+.text-footer{
+    max-height: 30px;
+    width: max-content;
+    margin-top: 100.27px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+.text-footer-two{
+    max-width: 308px;
+    margin: 24px 0px 0px 0px ;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.follow{
+    width: 117px;
+    margin: 40px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.social{
+    max-width: 125px;
+    display: flex;
+    margin: 0px 15px 0px 0px;
+    padding: 0px;
+    /* justify-content: space-between; */
+
+}
+.seti{
+    display: flex;
+    width: 20px;
+    
+    height: 20px;
+    padding: 0px;
+    margin:20.46px 15px 0px 0px ;
+    border: none;
+    border-radius: 50%;
+    background: #305F64;
+}
+.text-tour{
+    display: grid;
+    height: max-content;
+    width: 117px;
+    margin: 0px 0px 0px 157.02px;
+}
+
+.footer-btn{
+    border: none;
+    margin: 24px 0px 0px 0px ;
+    padding: 0px;
+    text-align: start;
+    cursor: pointer;
+    background-color: #305F64;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.tur{
+    margin: 16px 0px 0px 0px;
+}
+.our-company{
+    display: grid;
+    height: max-content;
+    width: 156px;
+    margin: 0px 0px 0px 100.46px;
+}
+.subscribe{
+    width: 240px;
+    display: grid;
+    justify-content: start;
+    margin-left: 108.52px;
+    margin-right: 120px;
+}
+.us-text{
+    margin: 23.5px 0px 0px ;
+}
+.inp{
+    margin: 40px 0px 0px;
+    padding: 0px 0px 0px 22px;
+    width: 253px;
+    height: 48px;
+}
+.arrow{
+    position: relative;
+    top: -42px;
+    left: 235px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.line{
+    position: relative;
+    top: 147px;
+    border-bottom: 1px solid #407980;;
+}
+.end{
+    position: relative;
+    left: 120px;
+    top: 62px;
+    margin: 101px 569px 20px;
+}
+.text-end{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+}

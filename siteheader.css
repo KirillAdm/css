@@ -1,12 +1,13 @@
 html{
-    width: 100%;
-    max-width: 2000px;
+    overflow-x: hidden;
+}
+header, main{
+    width: 100vw;
+    max-width: 1440px;
+    margin: 44px 120px 0px 120px;
 }
 body{
-    /* width: 100%; */
-    margin: 44px 120px 0px 120px;
-    background: #F5F5F5;
-
+    background: #FCFBFF;
 }
 .firs-head{
 
@@ -14,16 +15,17 @@ body{
 .head{
  display: flex;
  justify-content: space-between;
+ 
 }
 .right-head{
     display: flex;
     gap: 32.86px;
-    
 }
 .btn-label{
     border: none;
     cursor: pointer;
     padding: 0;
+    background: #FCFBFF;
 }
 .btn-label:hover{
     background-color: gray;
@@ -39,7 +41,7 @@ body{
 }
 .menu{
     display: flex;
-    align-items: center;
+padding-top: 5px;
     width: 473px;
     height: 21px;
     row-gap: 50px   ;
