@@ -63,7 +63,6 @@ div{
     visibility: visible;
 }
 .mask {
-    /* width: max-content; */
     width: 266px;
     background-image: url(./pic/images.jpg);
 }
