@@ -1,0 +1,36 @@
+body{
+    display: grid;
+}
+.gora{
+ width: 300px;
+ transition: width 2s .5s;
+ height: 300px;
+}
+.gora:hover{
+    width: 600px;
+}
+div{
+    margin-top: 50px;
+}
+.sun{    
+    height: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    animation-name: krug;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes krug {
+    from{
+        background: aqua;
+    }
+    50%{
+        background: blue;
+        transform: translateX(100px) translateY(100px);
+    }
+    to{
+        background: plum;
+        transform: translateX(200px) translateY(0px); 
+    }
+}
