@@ -1,5 +1,6 @@
 body{
     display: grid;
+    background-color: #a09b9b;
 }
 .gora{
  width: 300px;
@@ -57,7 +58,18 @@ div{
     bottom: 100%;
     margin-bottom: 5px;
     left: -57%;
-   }
+}
 .tooltip:hover .tooltiptext {
     visibility: visible;
-   }
+}
+.mask {
+    /* width: max-content; */
+    width: 266px;
+    background-image: url(./pic/images.jpg);
+}
+h1 {
+    color: #000;
+    background: #ffcaca;
+    mix-blend-mode: lighten;
+    text-align: center;
+}
