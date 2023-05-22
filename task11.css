@@ -34,3 +34,30 @@ div{
         transform: translateX(200px) translateY(0px); 
     }
 }
+.tooltip{
+    width: max-content;
+    position: relative;
+    display: inline;
+    position: relative;
+    top: -450px ;
+    left: 650px;
+    border: 1px black solid;
+    background-color: tomato;
+}
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    margin-bottom: 5px;
+    left: -57%;
+   }
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+   }
