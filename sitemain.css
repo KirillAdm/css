@@ -259,8 +259,8 @@
 .btn-shop{
     display: flex;
     justify-content: space-between;
-    margin: 20px 361.04px 0px ;
-    gap: 100px 0px  ;
+    margin: 20px 221px 0px 221px ;
+    row-gap: 104px;
     
 }
 .shop{
