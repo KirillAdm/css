@@ -1,6 +1,6 @@
 footer{
     margin-top: 140px;
-    max-width: 1800px;
+    max-width: 1440px;
     height: 442px;
     background: #305F64;
 }
@@ -12,7 +12,6 @@ footer{
 }
 .text{
     display: grid;
-    margin: 0px 120px;
 }
 .text-footer{
     max-height: 30px;
@@ -100,7 +99,7 @@ footer{
     display: grid;
     justify-content: start;
     margin-left: 108.52px;
-    margin-right: 120px;
+
 }
 .us-text{
     margin: 23.5px 0px 0px ;
@@ -111,12 +110,14 @@ footer{
     width: 253px;
     height: 48px;
 }
-.arrow{
+.arrow2{
     position: relative;
     top: -42px;
     left: 235px;
     border-radius: 50%;
     cursor: pointer;
+    border: none;
+    background-color: white;
 }
 .line{
     position: relative;
@@ -124,10 +125,9 @@ footer{
     border-bottom: 1px solid #407980;;
 }
 .end{
-    position: relative;
-    left: 120px;
+    display: flex;
     top: 62px;
-    margin: 101px 569px 20px;
+    margin: 167px 569px 20px;
 }
 .text-end{
     font-family: 'DM Sans';

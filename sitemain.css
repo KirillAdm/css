@@ -21,18 +21,19 @@
 }
 .about-us{
     display: flex;
+    max-height: 612px;
     margin: 140px 0px 0px 0px;
 }
-.meb{
+/* .meb{
     box-shadow: 35px 35px 5px #DEE4E2;
-}
+} */
 .us{
     max-width: 1200px;
-    margin: 29px 0px 0px 100px ;
+    margin: 29px 0px 29px 100px ;
+    text-align: start;
 }
 .text-one{
     max-width: 437px;
-    margin-left: 100px;
     margin-bottom: 20px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -43,7 +44,6 @@
 }
 .text-two{
     max-width: 437px;
-    margin-left: 100px;
     margin-bottom: 0px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -55,16 +55,13 @@
 .plus{
     margin-top: 40px;
     display: flex;
-    max-height: 52px;
     max-width: 376.21px;
-    margin-left: 100px;
 }
 .first-plus{
     margin-top: 0px ;
     margin-left: 31.71px;
 }
 .shield{
-    width: 42.58px;
     height: 50px;
 }
 .part-one{
@@ -86,11 +83,14 @@
     line-height: 26px;
     color: #383738;
 }
+.top{
+    margin-top: 30px ;
+}
 .second{
     margin-top: 73px;
 }
 .our-pop{
-    max-width: 2000px;
+    max-width: 1200px;
     margin-top: 175px;
 }
 .about{
@@ -116,7 +116,7 @@
 .btn-card{
     display: flex;
     justify-content: space-between;
-    max-width: 2000px;
+    max-width: 1200px;
     max-height: 50px;
 }
 .btn{
@@ -151,7 +151,7 @@
     display: flex;
     max-width: 1200px;
     justify-content: space-between;
-    margin-left: 120px;
+    row-gap: 30px   ;
 }
 
 .card-one{
@@ -194,7 +194,8 @@
     border-radius: 50%;
     border:none;
     cursor: pointer;
-    background-color: gray;
+    background-color: #ECF4FF;
+
 }
 .share{
     width: 26px;
@@ -204,9 +205,14 @@
     border-radius: 50%;
     border:none;
     cursor: pointer;
-    background: gray;
+    background: #ECF4FF;
+}
+.cbtn{
+    padding: 0;
+    margin-top: 5px;
 }
 .share:hover{
+    color: white;
     background-color: orangered;
 }
 .like:hover{
@@ -399,7 +405,6 @@ color: #000000;
     margin-top: 140px;
     width: 1200px;
     height: 395px;
-    margin-left: 120px;
     background-color: #F4F6F6;
 }
 .sub-text1{
@@ -454,4 +459,10 @@ color: #000000;
     height: 67px;
     border: none; 
     padding: 0 0px 0px 45.52px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #BABABA;
 }
