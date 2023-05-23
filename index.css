@@ -50,3 +50,13 @@ div p span {
 .but{
   display: flex;
 }
+@supports (background: linear-gradient(to bottom, #000000, #ffffff)) {
+  body {
+      background: linear-gradient(to bottom, #000000, #ffffff);
+  }
+}
+@supports not (background: linear-gradient(to bottom, #000000, #ffffff)) {
+  body {
+    background: aqua;
+  }
+}
