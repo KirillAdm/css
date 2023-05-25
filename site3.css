@@ -1,0 +1,122 @@
+@font-face {
+    font-weight: 400;
+    font-family: Ginora Sans;
+    src: url("./Fonts/Ginra\ Sans\ Regular.otf");
+  }
+  @font-face {
+    font-weight: 700;
+    font-family: Ginora Sans;
+    src: url("./Fonts/Ginra\ Sans\ Bold.otf");
+  }
+  @font-face {
+    font-family: Gilroy-Regular;
+    src: url("./Fonts/gilroy-regular.ttf");
+  }
+  @font-face {
+    font-weight: 600;
+    font-family: Ginora Sans;
+    src: url("./Fonts/Ginra\ Sans\ Semi\ Bold.otf");
+  } 
+  @font-face {
+    font-weight: 300;
+    font-family: Ginora Sans;
+    src: url("./Fonts/Ginra\ Sans\ Light.otf");
+  }
+  @font-face {
+    font-family: Gilory Light;
+    src: url("./Fonts/gilroy-light.ttf");
+  }
+  @font-face {
+    font-family: Gilory Medium;
+    src: url("./Fonts/gilroy-medium.ttf");
+  }
+
+html{
+    width: 1440px;
+    margin: 30px 140px 0px;
+    padding: 0;
+    background: #1D1D1D;
+    overflow-x: hidden;
+}
+.back-fon{
+    position: absolute;
+    top: -10px;
+    right: 140px;
+    left: -150px;
+    max-width: 2011px;
+    max-height: 964px;
+    z-index: -1;
+}
+.header{
+    display: flex;
+    max-width: 1160px;
+    height: 80px;
+    margin: 30px 140px 0px 140px;
+    justify-content: space-between;
+    align-items: center;
+    background: #232526;
+}
+.left-header{
+    display: flex;
+    margin-left: 60px ;
+    gap: 0px 30px   ;
+}
+.center-header{
+
+}
+.right-header{
+    display: flex;
+    gap: 0px 30px;
+    margin-right: 60px;
+}
+.btn-header {
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+    background-color: #232526;
+    color: #F4F4F4;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.btn-header:hover{
+    border-bottom: 1px solid #F4F4F4;
+    opacity: 0.8;
+    color: white;
+}
+
+h1{
+    margin-top: 171px;
+    margin: 171px 300px 0;
+    align-content: center;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 96px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F4F4F4;
+}
+.gradient{
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image:linear-gradient(rgba(128, 147, 255, 1), rgba(102, 255, 229, 1),rgba(244, 244, 244, 1));
+    /* background-image:url(https://tinypng.com/images/social/website.jpg) ; */
+}
+.btn-down{
+    display: flex;
+    margin: 164px 720px 0px;
+    border: none;
+    cursor: pointer;
+    background-color: #1D1D1D;
+}
+.btn-down:hover{
+    background-color: gray;
+    opacity: 0.5;
+    border-radius: 15%;
+}
