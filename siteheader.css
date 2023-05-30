@@ -1,10 +1,13 @@
 html{
     overflow-x: hidden;
+    width: 1440px;
+    margin: auto;
 }
 header, main{
     width: 100vw;
     max-width: 1200px;
     margin: 44px 120px 0px 120px;
+    
 }
 body{
     background: #FCFBFF;
