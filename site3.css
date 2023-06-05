@@ -61,13 +61,13 @@ html{
     margin-left: 60px ;
     gap: 0px 30px   ;
 }
-.center-header{
-
-}
 .right-header{
     display: flex;
     gap: 0px 30px;
     margin-right: 60px;
+}
+.kub-mag{
+    margin-left: 6px;
 }
 .btn-header {
     border: none;
@@ -179,6 +179,7 @@ h1{
 .btn-first-block:hover{
     background-color: #232526;
     border-bottom: 1px solid ;
+    padding: 0px;
 }
 .vint{
     position: relative;
@@ -210,10 +211,188 @@ h1{
 }
 .second-second-text{
     width: 442px;
+    padding-top: 15px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     font-family: 'Gilroy-Regular';
     font-size: 16px;
     line-height: 24px;
     color: #B8B8B8;
+}
+.block-pic{
+    display: flex;
+    gap: 0px 89px;
+    margin: 90px 0px 0px;
+}
+.text-block-pic{
+    margin-top:113px;
+}
+.kawaski{
+    width: 93px;
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3em;
+    text-transform: capitalize;
+    color: rgba(184, 184, 184, 0.7);
+}
+.name-robo{
+    width: 507px;
+    margin: 0px 0px ;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;    
+    text-transform: capitalize;
+    color: #F4F4F4;
+}
+.text-about{
+    width: 500px;
+    margin: 20px 0 0 0;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 24px;
+    color: #B8B8B8;
+}
+.btn-viwe{
+    padding: 0;
+    margin: 45px 0 0 0 ;
+    gap: 0px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #1D1D1D ;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #99A9FF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btn-viwe:hover{
+    background-color: #232526;
+    border-bottom: 1px solid ;
+}
+.block-three{
+   margin: 60px 140px 0 140px; 
+   width: 1160px;
+   display: flex;
+}
+.all-text-three{
+    margin-top: 113px;
+}
+.roxerin{
+    width: 93px;
+    margin-bottom: 6px;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3em;
+    text-transform: capitalize;
+    color: rgba(184, 184, 184, 0.7);  
+}
+.name-minds{
+    margin: 0px 0 20px 0 ;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #F4F4F4;
+
+}
+.btn-viwe-two{
+    padding: 0;
+    margin: 45px 0 0 0 ;
+    gap: 0px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #1D1D1D ;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #5CE4CF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btn-viwe-two:hover{
+    background-color: #232526;
+    border-bottom: 1px solid ;
+}
+.vint-2{
+    position: absolute;
+    top: 2510px;
+}
+.block-investment{
+    margin: 200px 0 0 140px;
+}
+
+
+.our{
+    margin: 30px 0 0 0;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #F4F4F4;
+}
+.btn-investment{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 90px 0 0 60px;
+    gap: 100px 127px;
+    width: 1071px;
+    cursor: pointer;
+}
+.btn-investment:focus{
+    border: 50px white solid;
+    background: rgba(48, 54, 58, 0.2);
+    
+}
+.text-btn{
+    gap: 0 9px;
+    border: none;
+    cursor: pointer;
+    background-color: #1D1D1D;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #B8B8B8;
+}
+.text-btn:focus{
+    background: linear-gradient(94.32deg, #99A9FF 0%, #5CE4CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* background-image: url(./pi/fon.png); */
 }
