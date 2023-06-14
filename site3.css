@@ -283,7 +283,7 @@ h1{
 }
 .btn-viwe:hover{
     background-color: #232526;
-    border-bottom: 1px solid ;
+
 }
 .block-three{
    margin: 60px 140px 0 140px; 
@@ -395,4 +395,406 @@ h1{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     /* background-image: url(./pi/fon.png); */
+}
+.block-men{
+    margin: 240px 0 0 140px;
+    display: flex;
+    gap: 0 64px;
+}
+.text-men{
+ display: grid;
+ margin-top: 273px;
+ margin-left: 72px;
+ height: max-content;
+}
+.vint-ver{
+    position: absolute;
+    top:4115px;
+    left: 984px;
+}
+.fone-men{
+    position: absolute;
+    top: 4200px;
+    left: 984px;
+    z-index: -1;
+}
+.text-men-one{
+    width: 373px;
+    margin: 0 0 40px 0;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 74px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize; 
+    color: #FFFFFF;
+}
+.text-men-two{
+    width: 360px;
+    margin: 0 0 29px 0;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #B8B8B8;
+}
+.btn-viwe-three{
+    width: max-content;
+    padding: 0;
+    margin:0 ;
+    gap: 0px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #232526 ;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #99A9FF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.btn-viwe-three:hover{
+    background-color: #1D1D1D;
+    border-bottom: 1px solid ;
+}
+.line{
+    margin-top: 201px;
+    margin-left: 140px;
+    height: max-content;
+}
+.block-hz{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0 0 140px;
+}
+.block-job-post{
+    margin-top:140px ;
+    margin-left: 30px;
+}
+.block-text-job{
+    display: flex;
+    
+}
+.text-email{
+    margin-top: 20px;
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #B8B8B8;
+}
+.arrow-line{
+        padding: 0;
+        margin: 70px 0 0 96px ;
+        gap: 0px 10px;
+        border: none;
+        cursor: pointer;
+        background-color: #1D1D1D ;
+        font-family: 'Ginora Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #5CE4CF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+ 
+}
+.arrow-line:hover{
+    background-color: #3f4243;
+    transform: scale(1.5, 1.5);
+}
+.line-block{
+    margin: 40px 0 0 -30px;
+}
+.mar{
+    margin-top: 30px;
+}
+.grad{
+    background: linear-gradient(92.73deg, #99A9FF 0%, #5CE4CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.block-btn-post{
+    margin: 270px 0 0 130px;
+}
+.job-categories{
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #F4F4F4;
+    background: #1D1D1D;
+}
+.btn-job{
+    margin-top: 30px;
+    display: grid;
+    max-width: 267px;
+    gap: 20px 0;
+}
+.class-btn{
+    justify-content: space-between;
+    border: none;
+    padding: 0px;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #B8B8B8;
+    background: #1D1D1D;
+}
+.class-btn:hover{
+    background-color: #1D1D1D;
+    border-bottom: 1px solid ;  
+}
+.news{
+    margin: 30px 0 0 140px;
+}
+.stories{
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #F4F4F4;
+}
+.tape{
+    display: flex;
+    margin: 90px -140px 0;
+    gap: 0 60px ;
+}
+.new-one{
+    width: 348px;
+    overflow:hidden ;
+}
+.block-text-news{
+    width: 497px;
+    margin-top: 40px; 
+}
+.text-news{
+    width: 433px;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #B8B8B8;
+}
+.date{
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #B8B8B8;  
+} 
+
+.text-and-date-news{
+    margin-top: 40px;
+    width: 496px;
+}
+.text-news-two{
+
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: capitalize;
+    background: linear-gradient(96.97deg, #99A9FF 20.47%, #5CE4CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hid{    
+    margin-left: -118px;
+}
+.btn-block{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 140px;
+    margin-top: 140px;
+}
+.btn-left-right{
+    display: flex;
+    gap: 0 30px;
+}
+.btn-left{
+  opacity: 0.4;  
+}
+.btn-right{
+    opacity: 0.4;
+    border-bottom: none;
+    rotate: 180deg;
+}
+.btn-right:hover{
+    border: none;
+    background: none;
+    transform: scale(2, 1.2);
+    opacity: 1;
+}
+.btn-left:hover{
+    border: none;
+    background: none;
+    transform: scale(2, 1.2);
+    opacity: 1;
+
+}
+footer{
+    margin: 200px 0 0 140px;
+}
+.text-and-form{
+    display: flex;
+    gap: 0 129px;
+}
+.ideas{
+    width: 565px;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 74px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    background: conic-gradient(from 180deg at 50% 50%, #66FFE6 -160.13deg, #8093FF 42.37deg, #66FFE6 199.87deg, #8093FF 402.37deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.text-help{
+    margin-top: 40px;
+    width: 518px;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #B8B8B8;
+}
+.form{
+    /* margin-top: 39px; */
+    display: flex;
+    flex-direction: column;
+}
+.line-form{
+    position: relative;
+    width: 80px;
+    height: 3px;
+    top: 86px;
+    left: 30px;
+}
+.line-form-email{
+    position: relative;
+    width: 80px;
+    height: 3px;
+    top: -2px;
+    left: 30px;
+}
+.line-form-message{
+    position: relative;
+    width: 80px;
+    height: 3px;
+    bottom: 2px;
+    left: 30px;
+}
+.inp-name{
+    margin-top: 39px;
+    width: 466px;
+    padding:0 0 19px 30px ;
+    border: none;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #B8B8B8;
+    background-color: #1D1D1D;
+    border-bottom: 1px solid #565656;
+}
+.btn-end{
+    display: flex;
+    height: max-content;
+    width: max-content;
+    margin: 60px 0 0 30px;
+}
+.footer-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 140px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.left-btn{
+    display: flex;
+    gap: 0 30px;
+}
+.right-btn{
+    display: flex;
+    gap: 0 30px;
+}
+.style-btn{
+    border: none;
+    cursor: pointer;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #B8B8B8;
+    background-color: #1D1D1D;
+}
+.style-btn:hover{
+    color: #99A9FF;
+}
+.final-text{
+    margin: 40px 140px 40px 0   ;
+    text-align: center;
+    font-family: 'Ginora Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #B8B8B8;
+}
+@media screen and (max-width: 700px) {
+   
 }
