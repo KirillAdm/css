@@ -69,6 +69,12 @@ html{
 .kub-mag{
     margin-left: 6px;
 }
+.kug-mag-adap{
+display: none;
+}
+.btn-menu-adap{
+display: none;
+}
 .btn-header {
     border: none;
     cursor: pointer;
@@ -100,6 +106,9 @@ h1{
     text-align: center;
     text-transform: capitalize;
     color: #F4F4F4;
+}
+.spiral-adap{
+    display: none;
 }
 .gradient{
     color: transparent;
@@ -224,6 +233,9 @@ h1{
     gap: 0px 89px;
     margin: 90px 0px 0px;
 }
+.robot{
+    display:none;
+}
 .text-block-pic{
     margin-top:113px;
 }
@@ -284,6 +296,9 @@ h1{
 .btn-viwe:hover{
     background-color: #232526;
 
+}
+.project-2-adap{
+    display: none;
 }
 .block-three{
    margin: 60px 140px 0 140px; 
@@ -349,7 +364,9 @@ h1{
 .block-investment{
     margin: 200px 0 0 140px;
 }
-
+.line-two{
+    display: none;
+}
 
 .our{
     margin: 30px 0 0 0;
@@ -400,6 +417,9 @@ h1{
     margin: 240px 0 0 140px;
     display: flex;
     gap: 0 64px;
+}
+.adap{
+    display: none;
 }
 .text-men{
  display: grid;
@@ -534,6 +554,9 @@ h1{
 .block-btn-post{
     margin: 270px 0 0 130px;
 }
+.adaptive-job{
+    display: none;
+}
 .job-categories{
     font-family: 'Ginora Sans';
     font-style: normal;
@@ -571,6 +594,9 @@ h1{
     background-color: #1D1D1D;
     border-bottom: 1px solid ;  
 }
+.line-four{
+    display: none;
+}
 .news{
     margin: 30px 0 0 140px;
 }
@@ -589,6 +615,9 @@ h1{
     display: flex;
     margin: 90px -140px 0;
     gap: 0 60px ;
+}
+.img1-adap{
+    display: none;
 }
 .new-one{
     width: 348px;
