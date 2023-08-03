@@ -671,7 +671,13 @@ h1{
     margin-top: 140px;
 }
 .btn-left-right{
+    padding: 0;
+    gap: 0px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #1D1D1D ;
     display: flex;
+    align-items: baseline;
     gap: 0 30px;
 }
 .btn-left{

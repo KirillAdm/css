@@ -2,7 +2,7 @@
   html {
     width: 360px;
     margin: 0 auto;
-    overflow-x: scroll;
+    overflow-x: hidden;
   }
   body {
     width: 360px;
@@ -258,7 +258,7 @@ margin: 20px 20px 0;
 .btn-investment{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 60px 40px 0 40px;
+  margin: 60px 40px 0 30px;
   gap: 40px 40px;
   width: 280px;
   cursor: pointer;
@@ -356,7 +356,7 @@ text-align: left;
 }
 .arrow-line{
   padding: 0;
-  margin: 70px 0 0 30px ;
+  margin: 70px 0 0 0px ;
   gap: 0px 10px;
 }
 .line-block{
@@ -491,7 +491,6 @@ margin-top: 30px;
   width: 320px;
 }
 .btn-block{
-  min-height: 80px;
   width: max-content;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -501,10 +500,105 @@ margin-top: 30px;
 .btn-viwe{
   display: flex;
   align-items: flex-end;
-margin-top:0px;
+margin-top:40px;
 }
 .btn-left-right{
+  border: none;
+  background-color: #1D1D1D ;
   display: flex;
   align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+.viwe-adap{
+  display: flex;
+  margin-top: 80px;
+}
+footer{
+margin: 0;
+margin-top: 100px;
+  width: 320px;
+}
+.ideas{
+  margin: 0 16px 0;
+width: 325px;
+font-family: Ginora Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.text-and-form{
+  width: 320px;
+  display: grid;
+  gap: 0 129px;
+}
+.text-help{
+  margin: 20px 16px 0;
+  width: 320px;
+  font-family: Gilroy-Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.form{
+  
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.ad{
+  width: 320px;
+  
+}
+.btn-end{
+  display: flex;
+  height: max-content;
+  width: max-content;
+  margin: 60px 0 0 0px;
+}
+.footer-btn{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 320px;
+  justify-content: space-between;
+  margin-right: 0px;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+.left-btn{
+  margin: 0 40px;
+  width: 320px;
+  display: flex;
+  gap: 0 20px;
+}
+.style-btn{
+  font-family: Ginora Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+gap: 0 20px ;
+}
+.right-btn{
+  display: flex;
+  gap: 0  30px;
+  margin: 20px 69px 0;
+}
+.final-text{
+  margin:30px 73px 6px ;
+  width: 320px;
+  font-family: Ginora Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
 }
 }
